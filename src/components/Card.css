@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+h2 {
+  font-family: "Caveat", cursive;
+  margin: 0px auto;
+}
+p {
+  font-family: fantasy;
+  font-weight: bold;
+  margin: 0px auto;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  border: 2px solid white !important;
+}
+
+:root {
+  --time: 0.707s;
+}
+
+.cards {
+  display: inline-block;
+}
+
+.card {
+  -webkit-perspective: 40rem;
+  perspective: 40rem;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: flex;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: var(--time) transform;
+  transition: var(--time) transform;
+}
+.card:hover .card-body,
+.card:focus .card-body {
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+}
+
+.card-front,
+.card-back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  min-width: 100%;
+  display: grid;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.card-back {
+  -webkit-transform: rotateX(-180deg) translate(-100%, 0);
+  transform: rotateX(-180deg) translate(-100%, 0);
+}
+
+/* Make it Pretty */
+body {
+  line-height: 1.3;
+  font-family: sans-serif;
+}
+
+.cards {
+  grid-gap: 1.5rem;
+  grid-auto-rows: 2fr;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
+  width: 350px !important;
+}
+
+.card {
+  display: -webkit-box;
+  display: flex;
+  -webkit-transition: z-index, -webkit-transform calc(var(--time) / 4);
+  transition: z-index, -webkit-transform calc(var(--time) / 4);
+  transition: z-index, transform calc(var(--time) / 4);
+  transition: z-index, transform calc(var(--time) / 4),
+    -webkit-transform calc(var(--time) / 4);
+  -webkit-transition-delay: var(--time), 0s;
+  transition-delay: var(--time), 0s;
+  text-decoration: none;
+  color: inherit;
+  z-index: 0;
+}
+.card:hover {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  z-index: 1;
+}
+.card:active {
+  -webkit-transform: scale(0.975);
+  transform: scale(0.975);
+}
+
+.card-body {
+  border-radius: 0.25rem;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
+.card-front,
+.card-back {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 0.25rem;
+}
+
+.card-front {
+  font-size: 1rem;
+}
+
+.shadow,
+.card-front,
+.card-back {
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.04), 0 2px 2px rgba(0, 0, 0, 0.04),
+    0 4px 4px rgba(0, 0, 0, 0.04), 0 8px 8px rgba(0, 0, 0, 0.04),
+    0 16px 16px rgba(0, 0, 0, 0.04);
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Ellenoire Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ellenoire Regular"), url("Ellenoire.woff") format("woff");
+}
+h1 {
+  font-family: "Ellenoire Regular";
+  color: white;
+  text-decoration: underline;
+  font-size: 48px !important;
+}
+
+* {
+  font-family: monospace;
+}
+body{
+  margin: "10px";
+  
+}
