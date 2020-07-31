@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62f991cd24b26ae1144d188460d6a008",
+    "revision": "e50ce3daee9958d5c188b8f936bbb4de",
     "url": "/SCIENTISTS/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SCIENTISTS/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "af317eb47f287409406e",
+    "revision": "a26715e89ea6ba703e6f",
     "url": "/SCIENTISTS/static/css/main.9eac878c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SCIENTISTS/static/js/2.bf97640c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af317eb47f287409406e",
-    "url": "/SCIENTISTS/static/js/main.65af66e9.chunk.js"
+    "revision": "a26715e89ea6ba703e6f",
+    "url": "/SCIENTISTS/static/js/main.bb05678a.chunk.js"
   },
   {
     "revision": "1dca6a873db0dc17b846",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SCIENTISTS/static/css/main.9eac878c.chunk.css",
-    "main.js": "/SCIENTISTS/static/js/main.65af66e9.chunk.js",
-    "main.js.map": "/SCIENTISTS/static/js/main.65af66e9.chunk.js.map",
+    "main.js": "/SCIENTISTS/static/js/main.bb05678a.chunk.js",
+    "main.js.map": "/SCIENTISTS/static/js/main.bb05678a.chunk.js.map",
     "runtime-main.js": "/SCIENTISTS/static/js/runtime-main.56ee398d.js",
     "runtime-main.js.map": "/SCIENTISTS/static/js/runtime-main.56ee398d.js.map",
     "static/css/2.3c03f26f.chunk.css": "/SCIENTISTS/static/css/2.3c03f26f.chunk.css",
     "static/js/2.bf97640c.chunk.js": "/SCIENTISTS/static/js/2.bf97640c.chunk.js",
     "static/js/2.bf97640c.chunk.js.map": "/SCIENTISTS/static/js/2.bf97640c.chunk.js.map",
     "index.html": "/SCIENTISTS/index.html",
-    "precache-manifest.17a7fc7b51d30f807b49a1e596a6a2cd.js": "/SCIENTISTS/precache-manifest.17a7fc7b51d30f807b49a1e596a6a2cd.js",
+    "precache-manifest.4379b9023931a0b11f489071355f6615.js": "/SCIENTISTS/precache-manifest.4379b9023931a0b11f489071355f6615.js",
     "service-worker.js": "/SCIENTISTS/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/SCIENTISTS/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.9eac878c.chunk.css.map": "/SCIENTISTS/static/css/main.9eac878c.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.bf97640c.chunk.js",
     "static/css/main.9eac878c.chunk.css",
-    "static/js/main.65af66e9.chunk.js"
+    "static/js/main.bb05678a.chunk.js"
   ]
 }
